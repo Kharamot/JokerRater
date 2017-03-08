@@ -47,7 +47,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "149"
             endingLineNumber = "149"
-            landmarkName = "setJokeRating(rating:)"
+            landmarkName = "updateJokeRating(rating:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

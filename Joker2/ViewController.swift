@@ -67,19 +67,19 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
     }
 
     func handleTap1 (recognizer: UITapGestureRecognizer) {
-        setJokeRating(rating: 1)
+        updateJokeRating(rating: 1)
     }
     func handleTap2 (recognizer: UITapGestureRecognizer) {
-        setJokeRating(rating: 2)
+        updateJokeRating(rating: 2)
     }
     func handleTap3 (recognizer: UITapGestureRecognizer) {
-        setJokeRating(rating: 3)
+        updateJokeRating(rating: 3)
     }
     func handleTap4 (recognizer: UITapGestureRecognizer) {
-        setJokeRating(rating: 4)
+        updateJokeRating(rating: 4)
     }
     func handleTap5 (recognizer: UITapGestureRecognizer) {
-        setJokeRating(rating: 5)
+        updateJokeRating(rating: 5)
     }
     
     
@@ -139,11 +139,11 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
         answerLine.text = jokesArray[index].answerLine
         jokeNum.text = "Joke #\(index + 1)"
         
-        setJokeRating(rating: jokesArray[index].rating)
+        updateJokeRating(rating: jokesArray[index].rating)
     }
     
-    //sets the jokes rating and displays the correct amount of filled images
-    func setJokeRating(rating: Int){
+    //updates the jokes rating and displays the correct amount of filled images
+    func updateJokeRating(rating: Int){
         var i: Int = 0
         jokesArray[index].rating = rating
         while i < 5
