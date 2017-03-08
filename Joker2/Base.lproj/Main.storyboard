@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Joker2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First Line" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y08-hq-vaQ">
+                                <rect key="frame" x="152" y="104" width="70" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Second Line" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Ih-DV-AIs">
+                                <rect key="frame" x="131" y="149" width="113" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PunchLine" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b90-dC-aNJ">
+                                <rect key="frame" x="147" y="257" width="81" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hIB-1N-Gaw">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <items>
+                                    <navigationItem title="Joke Rater" id="U4T-xO-dZ0"/>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Third Line" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bVg-Y4-c8B">
+                                <rect key="frame" x="149" y="200" width="77" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Joke #0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bhs-kh-95C">
+                                <rect key="frame" x="156" y="58" width="62" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Joker-50.png" translatesAutoresizingMaskIntoConstraints="NO" id="MNR-Il-PD9">
+                                <rect key="frame" x="132" y="302" width="32" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="32" id="EQM-lQ-wr7"/>
+                                    <constraint firstAttribute="width" constant="32" id="lb0-61-4yS"/>
+                                    <constraint firstAttribute="height" constant="32" id="uni-2c-gld"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Joker-50.png" translatesAutoresizingMaskIntoConstraints="NO" id="eW0-0e-3VH">
+                                <rect key="frame" x="172" y="302" width="32" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="RVR-w9-Emw"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="32" id="nd8-h6-qAb"/>
+                                    <constraint firstAttribute="width" constant="32" id="qWP-xQ-C2F"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Joker-50.png" translatesAutoresizingMaskIntoConstraints="NO" id="DQ6-ZP-B5M">
+                                <rect key="frame" x="212" y="302" width="32" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="32" id="Zjv-uN-ulu"/>
+                                    <constraint firstAttribute="height" constant="32" id="tpk-ZE-VMT"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Joker-50.png" translatesAutoresizingMaskIntoConstraints="NO" id="6qj-qS-2kh">
+                                <rect key="frame" x="252" y="302" width="32" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="32" id="HHw-hQ-8mD"/>
+                                    <constraint firstAttribute="height" constant="32" id="csw-RC-pWK"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Joker-50.png" translatesAutoresizingMaskIntoConstraints="NO" id="kcV-71-cjy">
+                                <rect key="frame" x="92" y="302" width="32" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="32" id="KVO-fl-CH1"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="32" id="WSt-G7-DPW"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="32" id="b5A-n9-mGm"/>
+                                    <constraint firstAttribute="height" constant="32" id="udX-rI-rT4"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="hIB-1N-Gaw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="118-pp-JhD"/>
+                            <constraint firstItem="6qj-qS-2kh" firstAttribute="leading" secondItem="DQ6-ZP-B5M" secondAttribute="trailing" constant="8" id="8YT-pu-vcx"/>
+                            <constraint firstItem="Bhs-kh-95C" firstAttribute="top" secondItem="hIB-1N-Gaw" secondAttribute="bottom" constant="14" id="A7C-BH-Q6U"/>
+                            <constraint firstItem="bVg-Y4-c8B" firstAttribute="top" secondItem="2Ih-DV-AIs" secondAttribute="bottom" constant="30" id="DrD-d3-pH2"/>
+                            <constraint firstItem="bVg-Y4-c8B" firstAttribute="centerX" secondItem="b90-dC-aNJ" secondAttribute="centerX" id="Dte-Xw-H2s"/>
+                            <constraint firstItem="eW0-0e-3VH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IgG-91-H73"/>
+                            <constraint firstItem="hIB-1N-Gaw" firstAttribute="centerX" secondItem="Bhs-kh-95C" secondAttribute="centerX" id="IrF-Vs-sHA"/>
+                            <constraint firstItem="DQ6-ZP-B5M" firstAttribute="leading" secondItem="eW0-0e-3VH" secondAttribute="trailing" constant="8" id="KWp-QQ-20I"/>
+                            <constraint firstItem="MNR-Il-PD9" firstAttribute="leading" secondItem="kcV-71-cjy" secondAttribute="trailing" constant="8" id="TLC-Pb-ADI"/>
+                            <constraint firstAttribute="trailing" secondItem="hIB-1N-Gaw" secondAttribute="trailing" id="UPk-Ef-3xh"/>
+                            <constraint firstItem="Y08-hq-vaQ" firstAttribute="top" secondItem="Bhs-kh-95C" secondAttribute="bottom" constant="25" id="XLP-bY-XiQ"/>
+                            <constraint firstItem="6qj-qS-2kh" firstAttribute="top" secondItem="b90-dC-aNJ" secondAttribute="bottom" constant="24" id="XZd-vl-pEb"/>
+                            <constraint firstItem="hIB-1N-Gaw" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="aGT-ed-T6r"/>
+                            <constraint firstItem="Y08-hq-vaQ" firstAttribute="centerX" secondItem="2Ih-DV-AIs" secondAttribute="centerX" id="amy-X3-jPP"/>
+                            <constraint firstItem="2Ih-DV-AIs" firstAttribute="centerX" secondItem="bVg-Y4-c8B" secondAttribute="centerX" id="eaj-by-hXh"/>
+                            <constraint firstItem="eW0-0e-3VH" firstAttribute="leading" secondItem="MNR-Il-PD9" secondAttribute="trailing" constant="8" id="f8I-eW-tk0"/>
+                            <constraint firstItem="2Ih-DV-AIs" firstAttribute="top" secondItem="Y08-hq-vaQ" secondAttribute="bottom" constant="24" id="fwi-v3-NbT"/>
+                            <constraint firstItem="b90-dC-aNJ" firstAttribute="top" secondItem="bVg-Y4-c8B" secondAttribute="bottom" constant="36" id="gHc-IV-KZ2"/>
+                            <constraint firstItem="Bhs-kh-95C" firstAttribute="centerX" secondItem="Y08-hq-vaQ" secondAttribute="centerX" id="nY0-Au-0lT"/>
+                            <constraint firstItem="eW0-0e-3VH" firstAttribute="top" secondItem="b90-dC-aNJ" secondAttribute="bottom" constant="24" id="nqi-o1-G9x"/>
+                            <constraint firstItem="MNR-Il-PD9" firstAttribute="leading" secondItem="kcV-71-cjy" secondAttribute="trailing" constant="8" id="qdm-r1-Yyt"/>
+                            <constraint firstItem="kcV-71-cjy" firstAttribute="top" secondItem="b90-dC-aNJ" secondAttribute="bottom" constant="24" id="spL-F5-2XC"/>
+                            <constraint firstItem="DQ6-ZP-B5M" firstAttribute="top" secondItem="b90-dC-aNJ" secondAttribute="bottom" constant="24" id="tGN-0Z-TKe"/>
+                            <constraint firstItem="6qj-qS-2kh" firstAttribute="leading" secondItem="DQ6-ZP-B5M" secondAttribute="trailing" constant="8" id="tpe-PC-wVh"/>
+                            <constraint firstItem="2Ih-DV-AIs" firstAttribute="trailing" secondItem="DQ6-ZP-B5M" secondAttribute="trailing" id="vJL-Gz-ndx"/>
+                            <constraint firstItem="MNR-Il-PD9" firstAttribute="top" secondItem="b90-dC-aNJ" secondAttribute="bottom" constant="24" id="vhi-ue-1cq"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="Oan-7h-Tr8" appends="YES" id="eo6-ga-CJk"/>
+                            <outletCollection property="gestureRecognizers" destination="7QL-7Y-wqB" appends="YES" id="bwT-QC-9vi"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="answerLine" destination="b90-dC-aNJ" id="7JU-87-WHk"/>
+                        <outlet property="firstLine" destination="Y08-hq-vaQ" id="8LX-kZ-zNo"/>
+                        <outlet property="jokeNum" destination="Bhs-kh-95C" id="MrT-x3-9MG"/>
+                        <outlet property="secondLine" destination="2Ih-DV-AIs" id="DTe-cB-fHr"/>
+                        <outlet property="star1" destination="kcV-71-cjy" id="6qr-nF-9ub"/>
+                        <outlet property="star2" destination="MNR-Il-PD9" id="urp-ue-WrH"/>
+                        <outlet property="star3" destination="eW0-0e-3VH" id="Yzz-hT-UEY"/>
+                        <outlet property="star4" destination="DQ6-ZP-B5M" id="xqE-S3-2dH"/>
+                        <outlet property="star5" destination="6qj-qS-2kh" id="3gd-zu-CgZ"/>
+                        <outlet property="thirdLine" destination="bVg-Y4-c8B" id="BAX-dp-yHl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="Oan-7h-Tr8">
+                    <connections>
+                        <action selector="swipeRight:" destination="BYZ-38-t0r" id="eHu-6k-BV6"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="7QL-7Y-wqB">
+                    <connections>
+                        <action selector="swipeLeft:" destination="BYZ-38-t0r" id="tDQ-hw-tYb"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Joker-50.png" width="50" height="50"/>
+    </resources>
+</document>
